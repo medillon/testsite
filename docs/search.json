@@ -32,6 +32,6 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Building this using this nice guide by Sam Csik\n\ngit/github\nSome issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)\nI found Happy Git useful\n\n\ncustomizing\nHere are quarto templates, adjusted in the “about” section of the index.qmd file\nAnd here are some helpful markdown basics\nThemes from bootswatch to mess with"
+    "text": "Building this using this nice guide by Sam Csik\n\ngit/github\nSome issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)\nFollowed this installation guide first just to double-check everything was working.\nI found Happy Git useful\n\n\ncustomizing\nHere are quarto templates, adjusted in the “about” section of the index.qmd file\nAnd here are some helpful markdown basics\nThemes from bootswatch to mess with\n\n\ncss customizations\nI next worked through the customizing quarto websites slides"
   }
 ]

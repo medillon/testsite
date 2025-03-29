@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "testsite",
+    "title": "Michael Dillon",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m a physiological ecologist interested in how animals thrive in the face of varying temperatures."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Michael Dillon",
+    "section": "Education",
+    "text": "Education\nUniversity of Texas, Austin | BS in Zoology\nUniversity of Washington, Seattle | PhD in Biology"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Michael Dillon",
+    "section": "Experience",
+    "text": "Experience\nPostdoctoral Fellow, University of Washington\nNSF Postdoctoral Fellow, University of California, Berkeley"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Building this using this nice guide by Sam Csik\n\ngit/github\nSome issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)\nI found Happy Git useful\n\n\ncustomizing\nHere are quarto templates, adjusted in the “about” section of the index.qmd file\nAnd here are some helpful markdown basics\nThemes from bootswatch to mess with"
   }
 ]

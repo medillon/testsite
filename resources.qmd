@@ -1,0 +1,18 @@
+---
+title: "Resources"
+---
+
+
+Building this using this [nice guide by Sam Csik](https://ucsb-meds.github.io/creating-quarto-websites/)
+
+# git/github
+Some issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)
+
+I found [Happy Git](https://happygitwithr.com/index.html) useful
+
+# customizing
+Here are [quarto templates](https://quarto.org/docs/websites/website-about.html#templates), adjusted in the "about" section of the index.qmd file
+
+And here are some helpful [markdown basics](<https://quarto.org/docs/authoring/markdown-basics.html>)
+
+[Themes](https://bootswatch.com/) from bootswatch to mess with

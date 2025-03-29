@@ -1,11 +1,22 @@
 ---
-title: "Michael Dillon"
+#title: "Michael E. Dillon"
+image: media/headshot.jpg
+toc: false
+about:
+  template: trestles
+  image-shape: rounded
 ---
 
-Messing around with using git and quarto for things like webpages and shared projects.
+I'm a physiological ecologist interested in how animals thrive in the face of varying temperatures.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+University of Texas, Austin \| BS in Zoology
+
+University of Washington, Seattle \| PhD in Biology
+
+## Experience
+
+Postdoctoral Fellow, University of Washington
+
+NSF Postdoctoral Fellow, University of California, Berkeley

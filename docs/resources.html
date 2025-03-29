@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Michael Dillon</title>
+<title>Resources – Michael Dillon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -94,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -109,30 +110,54 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#gitgithub" id="toc-gitgithub" class="nav-link active" data-scroll-target="#gitgithub">git/github</a></li>
+  <li><a href="#customizing" id="toc-customizing" class="nav-link" data-scroll-target="#customizing">customizing</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="media/headshot.jpg" class="about-image
-  rounded " style="width: 20em;">
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>I’m a physiological ecologist interested in how animals thrive in the face of varying temperatures.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of Texas, Austin | BS in Zoology</p>
-<p>University of Washington, Seattle | PhD in Biology</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>Postdoctoral Fellow, University of Washington</p>
-<p>NSF Postdoctoral Fellow, University of California, Berkeley</p>
+<main class="content column-page-left" id="quarto-document-content">
 
-
-</section>
-</main></div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Resources</h1>
 </div>
- <!-- /main -->
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Building this using this <a href="https://ucsb-meds.github.io/creating-quarto-websites/">nice guide by Sam Csik</a></p>
+<section id="gitgithub" class="level1">
+<h1>git/github</h1>
+<p>Some issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)</p>
+<p>I found <a href="https://happygitwithr.com/index.html">Happy Git</a> useful</p>
+</section>
+<section id="customizing" class="level1">
+<h1>customizing</h1>
+<p>Here are <a href="https://quarto.org/docs/websites/website-about.html#templates">quarto templates</a>, adjusted in the “about” section of the index.qmd file</p>
+<p>And here are some helpful <a href="https://quarto.org/docs/authoring/markdown-basics.html">markdown basics</a></p>
+<p><a href="https://bootswatch.com/">Themes</a> from bootswatch to mess with</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -297,6 +322,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

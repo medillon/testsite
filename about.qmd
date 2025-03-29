@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+My in progress learning to build and deploy a site using quarto (in Rstudio)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resources – Michael Dillon</title>
+<title>resources – Michael E. Dillon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./media/favicon-med.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,6 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,8 +85,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./media/logo-mtn.png" alt="Michael E. Dillon" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Michael Dillon</span>
+    <span class="navbar-title">Michael E. Dillon</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,14 +97,22 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./resources.html" aria-current="page"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;tzom=360&amp;user=TA_v89cAAAAJ&amp;authuser=1" target="_blank"> 
+<span class="menu-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> scholar</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -117,7 +133,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#gitgithub" id="toc-gitgithub" class="nav-link active" data-scroll-target="#gitgithub">git/github</a></li>
   <li><a href="#customizing" id="toc-customizing" class="nav-link" data-scroll-target="#customizing">customizing</a></li>
-  <li><a href="#css-customizations" id="toc-css-customizations" class="nav-link" data-scroll-target="#css-customizations">css customizations</a></li>
   </ul>
 </nav>
     </div>
@@ -126,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">resources</h1>
 </div>
 
 
@@ -143,22 +158,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Building this using this <a href="https://ucsb-meds.github.io/creating-quarto-websites/">nice guide by Sam Csik</a></p>
+<p>A bunch of random resources collected here until I know exactly where I am going to put them</p>
 <section id="gitgithub" class="level1">
 <h1>git/github</h1>
-<p>Some issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)</p>
-<p>Followed this <a href="https://ucsb-meds.github.io/MEDS-installation-guide/#install">installation guide</a> first just to double-check everything was working.</p>
 <p>I found <a href="https://happygitwithr.com/index.html">Happy Git</a> useful</p>
+<ol type="1">
+<li><code>git checkout -b &lt;branch name&gt;</code></li>
+<li><code>git push -u origin &lt;branch name&gt;</code></li>
+</ol>
+<p>Where “&lt;branch name&gt;” is the name of the new branch. Now you are on a new branch which you can mess with before pushing and then merging with the main one.</p>
 </section>
 <section id="customizing" class="level1">
 <h1>customizing</h1>
 <p>Here are <a href="https://quarto.org/docs/websites/website-about.html#templates">quarto templates</a>, adjusted in the “about” section of the index.qmd file</p>
 <p>And here are some helpful <a href="https://quarto.org/docs/authoring/markdown-basics.html">markdown basics</a></p>
 <p><a href="https://bootswatch.com/">Themes</a> from bootswatch to mess with</p>
-</section>
-<section id="css-customizations" class="level1">
-<h1>css customizations</h1>
-<p>I next worked through the <a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">customizing quarto websites</a> slides</p>
 
 
 </section>
@@ -729,6 +743,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2025, Michael E. Dillon</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This website is built with <i class="fa-brands fa-linux" title="linux" aria-label="linux"></i>, <a href="https://github.com/medillon/medillon.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-label="github"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-label="r-project"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

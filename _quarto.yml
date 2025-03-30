@@ -3,16 +3,30 @@ project:
   output-dir: docs
 
 website:
-  title: "Michael Dillon"
+  title: "Michael E. Dillon"
+  favicon: media/favicon-med.png
   navbar:
-    left:
+    #title: false # override printing website title
+    logo: media/logo-mtn.png
+    logo-alt: "Michael E. Dillon"
+    right:
       #- href: index.qmd
       #  text: Home
       - about.qmd
       - resources.qmd
+      - posts.qmd
+      - text: "{{< ai google-scholar >}} scholar"
+        href: https://scholar.google.com/citations?hl=en&tzom=360&user=TA_v89cAAAAJ&authuser=1
+        target: _blank 
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Michael E. Dillon
+    right: This website is built with {{< fa brands linux title="linux" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/medillon/medillon.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
+    #theme: teststyles.scss
+    #mainfont: Nunito
     theme:
       light: litera # lumen sketchy yeti flatly litera
       dark: darkly   # slate, darkly

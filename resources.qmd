@@ -1,23 +1,22 @@
 ---
-title: "Resources"
+title: "resources"
 ---
 
-
-Building this using this [nice guide by Sam Csik](https://ucsb-meds.github.io/creating-quarto-websites/)
+A bunch of random resources collected here until I know exactly where I am going to put them
 
 # git/github
-Some issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)
-
-Followed this [installation guide](https://ucsb-meds.github.io/MEDS-installation-guide/#install) first just to double-check everything was working. 
 
 I found [Happy Git](https://happygitwithr.com/index.html) useful
 
+1.  `git checkout -b <branch name>`
+2.  `git push -u origin <branch name>`
+
+Where "\<branch name\>" is the name of the new branch. Now you are on a new branch which you can mess with before pushing and then merging with the main one.
+
 # customizing
+
 Here are [quarto templates](https://quarto.org/docs/websites/website-about.html#templates), adjusted in the "about" section of the index.qmd file
 
-And here are some helpful [markdown basics](<https://quarto.org/docs/authoring/markdown-basics.html>)
+And here are some helpful [markdown basics](https://quarto.org/docs/authoring/markdown-basics.html)
 
 [Themes](https://bootswatch.com/) from bootswatch to mess with
-
-# css customizations
-I next worked through the [customizing quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) slides

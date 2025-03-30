@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "about"
 ---
 
 My in progress learning to build and deploy a site using quarto (in Rstudio)

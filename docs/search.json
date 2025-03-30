@@ -2,36 +2,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Michael Dillon",
+    "title": "Michael E. Dillon",
     "section": "",
     "text": "I’m a physiological ecologist interested in how animals thrive in the face of varying temperatures."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "about",
     "section": "",
     "text": "My in progress learning to build and deploy a site using quarto (in Rstudio)"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Michael Dillon",
+    "title": "Michael E. Dillon",
     "section": "Education",
     "text": "Education\nUniversity of Texas, Austin | BS in Zoology\nUniversity of Washington, Seattle | PhD in Biology"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Michael Dillon",
+    "title": "Michael E. Dillon",
     "section": "Experience",
     "text": "Experience\nPostdoctoral Fellow, University of Washington\nNSF Postdoctoral Fellow, University of California, Berkeley"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Resources",
+    "title": "resources",
     "section": "",
-    "text": "Building this using this nice guide by Sam Csik\n\ngit/github\nSome issues getting up and running, largely seemed to be due to connecting the local repository to the correct remote one (follow what github says when you first have the remote repository created)\nFollowed this installation guide first just to double-check everything was working.\nI found Happy Git useful\n\n\ncustomizing\nHere are quarto templates, adjusted in the “about” section of the index.qmd file\nAnd here are some helpful markdown basics\nThemes from bootswatch to mess with\n\n\ncss customizations\nI next worked through the customizing quarto websites slides"
+    "text": "A bunch of random resources collected here until I know exactly where I am going to put them\n\ngit/github\nI found Happy Git useful\n\ngit checkout -b &lt;branch name&gt;\ngit push -u origin &lt;branch name&gt;\n\nWhere “&lt;branch name&gt;” is the name of the new branch. Now you are on a new branch which you can mess with before pushing and then merging with the main one.\n\n\ncustomizing\nHere are quarto templates, adjusted in the “about” section of the index.qmd file\nAnd here are some helpful markdown basics\nThemes from bootswatch to mess with"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "Quarto day 1\n\n\n\nQuarto\n\n\nR\n\n\nwebsite\n\n\n\nMy first day playing with quarto\n\n\n\nMichael Dillon\n\n\nMar 29, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-03-29-quartoDay1/index.html",
+    "href": "posts/2025-03-29-quartoDay1/index.html",
+    "title": "Quarto day 1",
+    "section": "",
+    "text": "I just finished my first day trying out quarto, which appears to be a very cool tool using markdown (and code) to generate all sorts of “outputs”, including html (websites), pdf (documents), and many others. As a complete beginner to this, I thought it might be useful to assemble my thoughts on what quarto is, why it my be useful, and how (baseed on my rudimentary understanding) it works. Hopefully this makes it easier for me to teach this to, for example, the people in my research group, if that is a direction we decide to go.disclaimer: all of this may be totally or, even worse, partially wrong so read|interpret|share|believe at your own risk"
+  },
+  {
+    "objectID": "posts/2025-03-29-quartoDay1/index.html#footnotes",
+    "href": "posts/2025-03-29-quartoDay1/index.html#footnotes",
+    "title": "Quarto day 1",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI don’t mean this in the sense of someone sitting behind the scenes at a meeting of the UN, but rather any entity that can convert language to meaning: a computer with the appropriate compiler, a web browser, and also a human fluent in the language↩︎\nThis echos the fun of recursive acronyms (e.g. GNU, PHP) and of a self-replicating 3D printer (RepRap).↩︎\nIDE: Integrated Development Environment. There are many other choices and one could also just directly edit the text files. IDEs just have lots of bells and whistles that make editing easier↩︎"
   }
 ]

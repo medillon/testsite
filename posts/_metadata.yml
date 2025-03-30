@@ -1,0 +1,13 @@
+# options specified here will apply to all posts in this folder
+
+author: 
+  - name: Michael Dillon
+    url: https://medillon.github.io/testsite
+    affiliation: University of Wyoming
+    affiliation-url: https://www.uwyo.edu
+
+# re-render posts only when a change to the source file is made ----
+freeze: auto
+
+# enable banner style title blocks ----
+title-block-banner: true

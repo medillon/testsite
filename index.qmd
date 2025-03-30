@@ -5,6 +5,14 @@ toc: false
 about:
   template: trestles
   image-shape: rounded
+  links: 
+    - icon: github
+      text: github
+      href: https://github.com/medillon
+      target: _blank # opens link in new browser tab
+    - text: "{{< ai google-scholar >}} scholar"
+      href: https://scholar.google.com/citations?hl=en&tzom=360&user=TA_v89cAAAAJ&authuser=1
+      target: _blank
 ---
 
 I'm a physiological ecologist interested in how animals thrive in the face of varying temperatures.

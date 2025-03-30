@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+
+// some fonts from google fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+// Fonts
+$manrope: "Manrope", sans-serif;
+
+// Colors
+$dark-green: #858E79;
+$light-green: #D1D9CE;
+$cream: #FDFBF7;
+$white: #ffffff;
+$gray: #64605f;
+$purple: #bdc9e1;
+$orange: #ad7237;
+$ltblue: #deebf7;
+$mdblue: #9ecae1;
+$dkblue: #3182bd;
+
+// Base document colors
+$navbar-bg: $white; // navbar
+$navbar-fg: $dkblue; // navbar foreground elements
+$navbar-hl: $dkblue; // highlight color when hovering over navbar links
+//$body-bg: $dkblue; // page background 
+$body-color: $gray; // page text 
+$footer-bg: $white; // footer 
+$link-color: $purple; // hyperlinks 
+
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $purple; // inline code text color
+
+/*-- scss:rules --*/
+.navbar-brand img { 
+  max-height: 40px;
+  width: auto;
+}
+
+h1, h2 {
+  font-family: $manrope;
+  letter-spacing: 5px;
+  font-weight: 800; // Google fonts tells you which weights your chosen font family allows for!
+}
+
+.title {
+  color: maroon;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.orange-text {
+  color: $orange;
+}

@@ -1,0 +1,54 @@
+---
+title: "Quarto day 1"
+description: "My first day playing with quarto"
+date: 03-29-2025
+categories: [Quarto, R, website]
+citation:
+  url: https://medillon.github.io/testsite/posts/2025-03-29-quartoDay1
+image: huntii-taking-flight.jpg
+draft: false
+---
+
+I just finished my first day trying out quarto, which appears to be a very cool tool using markdown (and code) to generate all sorts of "outputs", including html (websites), pdf (documents), and many others. As a complete beginner to this, I thought it might be useful to assemble my thoughts on what quarto is, why it my be useful, and how (baseed on my rudimentary understanding) it works[disclaimer: all of this may be totally or, even worse, partially wrong so read\|interpret\|share\|believe at your own risk]{.aside}. Hopefully this makes it easier for me to *teach* this to, for example, the people in my research group, if that is a direction we decide to go.
+
+# Language vs. interpretation
+
+Generally speaking, I think of language as the set of symbols (including words, punctuation, etc.) that, when witnessed by an appropriately trained "interpreter"[^1], **means** something. So, `html` is a language that when interpreted by a browser yields a website; similarly `python` and `R` are languages that get interpreted by a compiler to yield outputs like analyses and plots. In the case of `markdown`, the same language can yield different outputs (`html`, `pdf`, `doc`, `odt`) which themselves are subsequently interpreted (by browsers, document readers, and document editors). This is appealing. It means I can indulge my laziness, avoiding the trouble of generating multiple versions of the same thing. It also redirects my attention from viewing and formatting back to **writing**. The distraction of formatting prevents the immersion in sentence craft that *can* yield useful writing. This is a core tenet of `LaTeX` - separate content from style.
+
+[^1]: I don't mean this in the sense of someone sitting behind the scenes at a meeting of the UN, but rather any entity that can convert language to meaning: a computer with the appropriate compiler, a web browser, and *also* a human fluent in the language
+
+To be clear, `markdown` does include formatting (lots of options in fact). The difference is that rather than providing specific instructions for formatting individual elements, you provide generalized guidelines for ***structuring*** your writing. That is useful: organizing words into sentences, sentences into paragraphs, and paragraphs into sections is central to making writing effective.
+
+# Why Quarto?
+
+As I understand it, Quarto was built by the same group of folks who developed RMarkdown, another option for weaving together writing and analyses. Whereas `Rmarkdown` is primarily targeted at `R` users (it is an `R` package), Quarto is a stand-alone program. Quarto has a more extensive set of integrated tools for all types of scientific publishing, including documents, presentations, websites, books, manuscripts, dashboards, and websites (like this one) and it is inclusive in formats of all these products (reflecting, in part, it's relationship with [Pandoc](https://pandoc.org/)[Pandoc: the swiss army knife for document conversion]{.aside}). `RMarkdown` and `Quarto` share many of the same concepts, structure, language (and even developers), but Quarto just has more possibilities out of the box. Quarto is also open-source - a big plus for a host of reasons
+
+# How to start?
+
+When getting started with something new like this, I find I am often overwhelmed by the available resources: choosing between official documentation, tutorials, other people's blog posts and guides sometimes sucks the life out of what would otherwise be a fun new challenge. I find the [official Quarto guide](https://quarto.org/docs/guide/) to be exceptionally well-written, clear, accessible, and well-organized. (And it's written with quarto, and I'm using quarto to write about it, which is fun).[^2] That being said, I opted to play with website functionality first (in part because it provides an interesting way to document the process)^2^, and came across some other resources that I found really useful - step-by-step hand-holding for a total beginner.
+
+[^2]: This echos the fun of recursive acronyms (e.g. GNU, PHP) and of a self-replicating 3D printer (RepRap).
+
+Backing up a bit, let me outline my goals and reasoning. 
+
+1. I wanted to use the process of developing a simple website to learn Quarto
+2. I wanted to use a version control system to edit these files locally and
+3. manage changes where they are hosted remotely
+
+```{mermaid}
+flowchart LR
+  A[Local directory] --> B(git)
+  B --> A
+  B --> C[github]
+  C --> B
+  C --> D["The Web"]
+```
+
+I could manage Quarto files on my computer using *git* (for a local repository), "push" those changes periodically to *github* where the files would be hosted remotely and served to the web for my (and possibly others) consumption. I've used [R-Studio](https://posit.co/download/rstudio-desktop/) for years for coding in *R*, but had never really taken advantage of it's more advanced features integrating projects (including websites) and git, so it was an obvious choice as an IDE for this^[IDE: Integrated Development Environment. There are many other choices and one could also just directly edit the text files. IDEs just have lots of bells and whistles that make editing easier].  
+
+I have messed around with *git* and *github* in fits and starts for years but not really used it regularly, so I first followed this [installation guide](https://ucsb-meds.github.io/MEDS-installation-guide/#install) to double-check everything was working. This just makes sure that: *Rstudio* is working (it comes with *Quarto*), *git* is installed and working, you have a *github* account and can connect to it. This last bit is the only part that gave me a little trouble. After initiating a repository on github based on your local repository, you need to follow the github instructions that pop up on connecting the two (this is not documented in the installation guide). Also if you have configured github to hide your real email (generally recommended), you'll need to use the github generated email when configuring git locally to communicate with github (step 6). Finally, you need to be sure these steps are done **prior** to step 7 in which you set `gitcreds` in *Rstudio*. If the push and pull buttons are grayed out in the git tab of Rstudio, it's likely one or both of these issues: the local repository has not been connected to the remote (with origin specified) or the credentials have not been properly setup to match your remote github settings.
+
+Once this was all working, I then followed [Sam Csik's guide](https://ucsb-meds.github.io/creating-quarto-websites/), which is awesome! This allowed me to do all the initial steps of creating the project and fiddling with the basics of how it works. I followed that up with her subsequent guide for [customizing Quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), another really cool resource. Finally, I followed her [guide for adding a blog a quarto website](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/), the result of which you are reading now!
+
+# Final thoughts
+The fact that, given my limited skill set and rudimentary understanding, I have been able to generate this website with this post in a few hours of work speaks to the power of Quarto. Next, I am aiming to use quarto to organize an analysis project as part of a manuscript I am working on. Will be fun to see how that comes together.
